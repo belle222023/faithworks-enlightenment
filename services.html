@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>document.documentElement.classList.add('js-anim');</script>
+<title>Digital Marketing Services for Businesses, Authors & Creatives | Faithworks Enlightenment</title>
+<meta name="description" content="Faithworks Enlightenment LLC is a faith-driven digital marketing company based in Florida. We offer social media management, paid advertising, email marketing, website & branding, content creation, and specialty services for authors and creative professionals nationwide.">
+<meta name="keywords" content="digital marketing services, faith-based marketing, social media management, author marketing, Florida marketing agency, podcast production, book launch marketing">
+<meta property="og:site_name" content="Faithworks Enlightenment">
+<meta property="og:title" content="Digital Marketing Services for Businesses, Authors & Creatives | Faithworks Enlightenment">
+<meta property="og:description" content="Faithworks Enlightenment LLC is a faith-driven digital marketing company based in Florida. We offer social media management, paid advertising, email marketing, website & branding, content creation, and specialty services for authors and creative professionals nationwide.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://faithworksenlightenment.com/services">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Digital Marketing Services for Businesses, Authors & Creatives | Faithworks Enlightenment">
+<meta name="twitter:description" content="Faithworks Enlightenment LLC is a faith-driven digital marketing company based in Florida. We offer social media management, paid advertising, email marketing, website & branding, content creation, and specialty services for authors and creative professionals nationwide.">
+<link rel="icon" href="logo (1).png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap');
+
+:root{
+  --brown:#102542;
+  --brown-soft:#1B3A5C;
+  --brown-deep:#0A1B30;
+  --tan:#C9BFB3;
+  --tan-soft:#F0ECE5;
+  --cream:#FAF8F5;
+  --rose:#A39685;
+  --rose-dark:#8A7A68;
+  --gold:#2C4A6E;
+  --gold-light:#4A6D91;
+  --gold-soft:#EDE8E1;
+  --text:#2C3E50;
+  --text-muted:#5B6B7A;
+  --border:#DDD6CC;
+  --accent-gold:#C9A66B;
+  --accent-gold-light:#E4C892;
+  --radius:16px;
+  --max:1140px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+  --ease-premium:cubic-bezier(.16,1,.3,1);
+  --shine:linear-gradient(115deg, transparent 30%, rgba(255,255,255,.5) 48%, rgba(255,255,255,.5) 52%, transparent 70%);
+}
+
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:'Inter', Arial, Helvetica, sans-serif;
+  color:var(--text);
+  background:var(--cream);
+  line-height:1.65;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+ul{list-style:none;margin:0;padding:0;}
+button{font-family:inherit;cursor:pointer;}
+
+h1,h2,h3{
+  font-family:'Fraunces', Georgia, serif;
+  font-weight:500;
+  letter-spacing:-0.01em;
+}
+
+.container{
+  max-width:var(--max);
+  margin:0 auto;
+  padding:0 24px;
+}
+
+.kicker{
+  display:inline-block;
+  font-family:'Inter', Arial, sans-serif;
+  font-size:12.5px;
+  font-weight:700;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--gold);
+  margin:0 0 14px;
+  padding-left:22px;
+  position:relative;
+}
+.kicker::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:50%;
+  width:14px;
+  height:1.5px;
+  background:var(--gold);
+  transform:translateY(-50%);
+}
+.kicker.center{padding-left:0;}
+.kicker.center::before{content:none;}
+.section-header.center .kicker{display:block;text-align:center;}
+
+.text-accent{
+  background:linear-gradient(100deg, var(--gold-light) 0%, var(--gold) 55%, var(--rose) 100%);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+
+/* Header */
+.site-header{
+  position:sticky;
+  top:0;
+  z-index:50;
+  background:rgba(16,37,66,.86);
+  backdrop-filter:blur(14px) saturate(140%);
+  -webkit-backdrop-filter:blur(14px) saturate(140%);
+  border-bottom:1px solid rgba(74,109,145,.16);
+  transition:background .3s ease;
+}
+.site-header .container{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding-top:16px;
+  padding-bottom:16px;
+}
+.logo-link{display:flex;align-items:center;gap:12px;}
+.logo-link img{height:44px;width:auto;}
+
+.main-nav ul{display:flex;gap:36px;}
+.main-nav a{
+  position:relative;
+  font-size:13.5px;
+  font-weight:600;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  color:rgba(255,255,255,.82);
+  padding:6px 1px;
+  transition:color .2s ease;
+}
+.main-nav a::after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:100%;
+  bottom:0;
+  height:2px;
+  background:linear-gradient(90deg,var(--accent-gold),var(--accent-gold-light));
+  transition:right .3s var(--ease-premium);
+}
+.main-nav a:hover,
+.main-nav a[aria-current="page"]{color:#fff;}
+.main-nav a:hover::after,
+.main-nav a[aria-current="page"]::after{right:0;}
+
+.nav-toggle{display:none;background:none;border:none;padding:6px;}
+.nav-toggle span{
+  display:block;
+  width:24px;
+  height:2px;
+  background:var(--tan-soft);
+  margin:5px 0;
+  transition:transform .2s ease, opacity .2s ease;
+}
+
+/* Buttons */
+.btn{
+  position:relative;
+  display:inline-block;
+  padding:14px 32px;
+  border-radius:999px;
+  font-weight:600;
+  font-size:15px;
+  letter-spacing:.01em;
+  border:2px solid transparent;
+  overflow:hidden;
+  transition:transform .25s var(--ease-premium), box-shadow .25s var(--ease-premium), background .25s ease, color .25s ease;
+}
+.btn::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:var(--shine);
+  transform:translateX(-120%);
+  transition:transform .7s var(--ease-premium);
+  pointer-events:none;
+}
+.btn:hover::before{transform:translateX(120%);}
+.btn-primary{
+  background:linear-gradient(135deg, var(--rose) 0%, var(--rose-dark) 100%);
+  color:#fff;
+  box-shadow:0 10px 24px -10px rgba(138,122,104,.65);
+}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 14px 30px -10px rgba(138,122,104,.75);}
+
+/* Hero */
+.hero{
+  position:relative;
+  overflow:hidden;
+  padding:88px 0 24px;
+  min-height:470px;
+  background:radial-gradient(120% 100% at 100% 0%, rgba(74,109,145,.16) 0%, rgba(74,109,145,0) 55%), linear-gradient(180deg,var(--tan-soft) 0%, var(--cream) 100%);
+}
+.hero::before{
+  content:"";
+  position:absolute;
+  top:-140px;
+  right:-120px;
+  width:420px;
+  height:420px;
+  background:radial-gradient(circle, rgba(163,150,133,.22) 0%, rgba(163,150,133,0) 70%);
+  pointer-events:none;
+}
+.hero::after{
+  content:"";
+  position:absolute;
+  bottom:-160px;
+  left:-140px;
+  width:380px;
+  height:380px;
+  background:radial-gradient(circle, rgba(44,74,110,.16) 0%, rgba(44,74,110,0) 70%);
+  pointer-events:none;
+}
+.hero .container{position:relative;}
+.hero .kicker{opacity:0;animation:riseIn .7s var(--ease-premium) forwards;}
+.hero h1{
+  font-size:46px;
+  line-height:1.14;
+  color:var(--brown);
+  margin:0 0 18px;
+  opacity:0;
+  animation:riseIn .7s var(--ease-premium) .1s forwards;
+}
+.hero p{
+  font-size:17px;
+  color:var(--text-muted);
+  margin:0 0 0;
+  max-width:64ch;
+  opacity:0;
+  animation:riseIn .7s var(--ease-premium) .2s forwards;
+}
+@keyframes riseIn{
+  from{opacity:0;transform:translateY(18px);}
+  to{opacity:1;transform:translateY(0);}
+}
+@media (prefers-reduced-motion:reduce){
+  .hero .kicker,.hero h1,.hero p{animation:none;opacity:1;}
+}
+
+/* Generic section spacing */
+.section{padding:80px 0;}
+.section-alt{background:var(--tan-soft);}
+.section-header{max-width:640px;margin:0 0 40px;}
+.section-header.center{margin-left:auto;margin-right:auto;text-align:center;}
+.section-header h2{font-size:32px;color:var(--brown);margin:0 0 12px;}
+.section-header p{color:var(--text-muted);font-size:16px;margin:0;}
+
+/* Feature list */
+.feature-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;}
+.feature-card{
+  position:relative;
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:30px 24px 26px;
+  transition:transform .3s var(--ease-premium), box-shadow .3s var(--ease-premium), border-color .3s ease;
+}
+.feature-card::before{
+  content:"";
+  display:block;
+  width:34px;
+  height:4px;
+  border-radius:4px;
+  background:linear-gradient(90deg,var(--gold),var(--rose));
+  margin-bottom:16px;
+  transition:width .3s var(--ease-premium);
+}
+.feature-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 24px 38px -22px rgba(16,37,66,.35);
+  border-color:transparent;
+}
+.feature-card:hover::before{width:56px;}
+.feature-card h3{font-size:18px;color:var(--brown);margin:0 0 10px;}
+.feature-card p{font-size:14px;color:var(--text-muted);margin:0;}
+.feature-card .step-number{
+  font-family:'Fraunces', Georgia, serif;
+  font-size:28px;
+  color:var(--gold);
+  margin:0 0 6px;
+}
+
+/* Mission */
+.mission{display:grid;grid-template-columns:1fr 0.8fr;gap:48px;align-items:center;}
+.mission img{border-radius:var(--radius);box-shadow:0 20px 40px -22px rgba(16,37,66,.3);}
+
+/* Services page list */
+.services-list{display:flex;flex-direction:column;gap:64px;}
+.service-row{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;}
+.service-row.reverse .service-copy{order:2;}
+.service-row.reverse .service-media{order:1;}
+.service-media{border-radius:var(--radius);overflow:hidden;box-shadow:0 20px 40px -22px rgba(16,37,66,.3);}
+.service-media img{border-radius:var(--radius);transition:transform .5s var(--ease-premium);}
+.service-media:hover img{transform:scale(1.05);}
+.service-copy h3{font-size:25px;color:var(--brown);margin:0 0 12px;}
+.service-copy p{font-size:16px;color:var(--text-muted);margin:0;}
+.service-copy .arrow{
+  display:inline-block;
+  margin-top:18px;
+  font-size:20px;
+  background:linear-gradient(90deg,var(--gold),var(--rose));
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  transition:transform .25s var(--ease-premium);
+}
+.service-row:hover .arrow{transform:translateX(6px);}
+
+/* Who we serve */
+.audience-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:20px;}
+.audience-card{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:24px 20px;
+  font-size:14px;
+  color:var(--text-muted);
+  text-align:center;
+  transition:transform .3s var(--ease-premium), box-shadow .3s var(--ease-premium);
+}
+.audience-card:hover{transform:translateY(-6px);box-shadow:0 20px 32px -20px rgba(16,37,66,.3);}
+
+/* Packages table */
+.package-table-wrap{
+  overflow-x:auto;
+  border-radius:var(--radius);
+  box-shadow:0 20px 36px -20px rgba(16,37,66,.3);
+  border:1px solid var(--border);
+}
+table.package-table{
+  width:100%;
+  border-collapse:collapse;
+  background:#fff;
+  min-width:640px;
+}
+table.package-table caption{display:none;}
+table.package-table th,
+table.package-table td{
+  text-align:left;
+  padding:20px 22px;
+  font-size:14.5px;
+  color:var(--text-muted);
+  border-bottom:1px solid var(--border);
+  vertical-align:top;
+}
+table.package-table thead th{
+  font-family:'Inter', Arial, sans-serif;
+  font-size:11.5px;
+  font-weight:700;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:#fff;
+  background:linear-gradient(135deg,var(--brown) 0%, var(--brown-deep) 100%);
+  border-bottom:none;
+}
+table.package-table thead th:first-child{border-top-left-radius:var(--radius);}
+table.package-table thead th:last-child{border-top-right-radius:var(--radius);}
+table.package-table tbody tr:last-child td{border-bottom:none;}
+table.package-table tbody tr.featured-row td{background:var(--tan-soft);}
+table.package-table td.package-name{
+  font-family:'Fraunces', Georgia, serif;
+  font-size:18px;
+  color:var(--brown);
+  font-weight:500;
+  white-space:nowrap;
+}
+table.package-table td.package-name .price-tag{
+  display:block;
+  margin-top:6px;
+  font-family:'Inter', Arial, sans-serif;
+  font-size:10.5px;
+  font-weight:700;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:#fff;
+  background:linear-gradient(135deg,var(--gold),var(--rose));
+  padding:4px 10px;
+  border-radius:999px;
+  width:fit-content;
+}
+
+/* Footer */
+.site-footer{
+  background:linear-gradient(180deg,var(--brown) 0%, var(--brown-deep) 100%);
+  color:var(--tan-soft);
+  padding:60px 0 24px;
+}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.3fr;gap:36px;}
+.footer-brand img{height:56px;margin-bottom:14px;}
+.footer-brand p{font-size:14px;color:#D9C6A8;max-width:32ch;}
+.footer-social{display:flex;gap:14px;margin-top:18px;}
+.footer-social a{
+  width:36px;
+  height:36px;
+  border:1px solid rgba(74,109,145,.3);
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:14px;
+  color:var(--tan-soft);
+  transition:background .25s ease, border-color .25s ease, transform .25s var(--ease-premium), color .25s ease;
+}
+.footer-social a svg{width:16px;height:16px;fill:currentColor;transition:transform .25s var(--ease-premium);}
+.footer-social a:hover{background:linear-gradient(135deg,var(--gold),var(--rose));border-color:transparent;color:#fff;transform:translateY(-3px);}
+.footer-col h4{font-family:'Fraunces', Georgia, serif;font-size:16px;margin:0 0 16px;color:var(--gold-soft);}
+.footer-col ul{display:flex;flex-direction:column;gap:10px;}
+.footer-col a{font-size:14px;color:#E4D5BB;transition:color .2s ease;}
+.footer-col a:hover{color:#fff;}
+.footer-contact p{font-size:14px;margin:0 0 10px;color:#E4D5BB;}
+.footer-newsletter form{display:flex;flex-direction:column;gap:10px;}
+.footer-newsletter input,
+.footer-newsletter textarea{
+  width:100%;
+  padding:13px 16px;
+  border:1px solid rgba(74,109,145,.3);
+  border-radius:10px;
+  background:rgba(255,255,255,.06);
+  color:#fff;
+  font-size:14px;
+  font-family:inherit;
+}
+.footer-newsletter input::placeholder{color:#C9B79A;}
+.footer-newsletter input:focus{
+  outline:none;
+  border-color:var(--gold-light);
+  box-shadow:0 0 0 3px rgba(74,109,145,.18);
+}
+.footer-newsletter button{
+  width:100%;
+  padding:13px 26px;
+  border-radius:999px;
+  border:none;
+  background:linear-gradient(135deg,var(--gold),var(--rose));
+  color:#fff;
+  font-weight:700;
+  font-size:14px;
+  transition:transform .25s var(--ease-premium), box-shadow .25s ease, opacity .2s ease;
+}
+.footer-newsletter button:hover{transform:translateY(-2px);box-shadow:0 10px 20px -10px rgba(163,150,133,.6);}
+.footer-newsletter .error{color:#F3B3AA;font-size:12.5px;margin-top:-4px;display:none;}
+.footer-newsletter .error.show{display:block;}
+.footer-newsletter .form-success{margin-top:4px;background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.15);color:var(--gold-soft);}
+.footer-bottom{border-top:1px solid rgba(74,109,145,.16);margin-top:40px;padding-top:20px;text-align:center;font-size:13px;color:#C9B79A;}
+.form-success{display:none;background:var(--tan-soft);border:1px solid var(--border);color:var(--brown);padding:14px 16px;border-radius:10px;font-size:14px;}
+.form-success.show{display:block;}
+.error{color:#B3261E;font-size:13px;margin-top:-8px;display:none;}
+.error.show{display:block;}
+
+/* Mobile */
+@media (max-width:900px){
+  .mission,.service-row{grid-template-columns:1fr;}
+  .service-row.reverse .service-copy,
+  .service-row.reverse .service-media{order:0;}
+  .feature-grid{grid-template-columns:repeat(2,1fr);}
+  .footer-grid{grid-template-columns:1fr 1fr;}
+  .audience-grid{grid-template-columns:repeat(2,1fr);}
+}
+@media (max-width:640px){
+  .nav-toggle{display:block;}
+  .main-nav{
+    position:absolute;
+    top:100%;
+    left:0;
+    right:0;
+    background:var(--brown);
+    border-bottom:1px solid rgba(74,109,145,.16);
+    display:none;
+  }
+  .main-nav.open{display:block;}
+  .main-nav ul{flex-direction:column;gap:0;padding:8px 24px 18px;}
+  .main-nav a{display:block;padding:12px 0;border-bottom:1px solid rgba(74,109,145,.12);}
+  .hero h1{font-size:32px;}
+  .feature-grid{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr;}
+  .audience-grid{grid-template-columns:1fr;}
+}
+
+/* Content reveal */
+html.js-anim .reveal{
+  opacity:0;
+  transform:translateY(32px);
+  transition:opacity .8s var(--ease-premium), transform .8s var(--ease-premium);
+  transition-delay:calc(var(--i,0) * 100ms);
+}
+html.js-anim .reveal.in-view{opacity:1;transform:translateY(0);}
+html.js-anim.no-scroll-anim .reveal{
+  animation:revealIn .9s var(--ease-premium) forwards;
+  animation-delay:calc(var(--i,0) * 100ms);
+}
+@keyframes revealIn{
+  from{opacity:0;transform:translateY(32px);}
+  to{opacity:1;transform:translateY(0);}
+}
+@media (prefers-reduced-motion:reduce){
+  html.js-anim .reveal{opacity:1;transform:none;transition:none;}
+}
+
+/* Custom cursor */
+body.custom-cursor-on,
+body.custom-cursor-on a,
+body.custom-cursor-on button,
+body.custom-cursor-on .btn,
+body.custom-cursor-on input,
+body.custom-cursor-on textarea{
+  cursor:none;
+}
+.cursor-dot,.cursor-ring{
+  position:fixed;
+  top:0;left:0;
+  border-radius:50%;
+  pointer-events:none;
+  z-index:9999;
+  transform:translate(-50%,-50%);
+  will-change:transform;
+  opacity:0;
+  transition:opacity .2s ease;
+}
+.cursor-dot{
+  width:9px;height:9px;
+  background:var(--accent-gold-light);
+  box-shadow:0 0 8px rgba(201,166,107,.7);
+}
+.cursor-ring{
+  width:34px;height:34px;
+  border:1.5px solid rgba(255,255,255,.65);
+  mix-blend-mode:difference;
+  transition:width .25s var(--ease-premium), height .25s var(--ease-premium), border-color .25s ease, background .25s ease, opacity .2s ease;
+}
+body.custom-cursor-on .cursor-dot,
+body.custom-cursor-on .cursor-ring{opacity:1;}
+.cursor-ring.is-active{
+  width:54px;height:54px;
+  background:rgba(255,255,255,.1);
+  border-color:var(--accent-gold-light);
+}
+body.cursor-hidden .cursor-dot,
+body.cursor-hidden .cursor-ring{opacity:0;}
+
+/* Scroll progress bar */
+.scroll-progress{
+  position:fixed;top:0;left:0;height:3px;width:100%;
+  transform:scaleX(0);transform-origin:left;
+  background:linear-gradient(90deg,var(--gold),var(--rose));
+  z-index:9998;will-change:transform;
+}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo-link">
+      <img src="logo (1).png" alt="Faithworks Enlightenment logo">
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html" aria-current="page">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" style="padding-bottom:24px;">
+    <div class="container">
+      <div>
+        <p class="kicker">What We Offer</p>
+        <h1>Our Digital Marketing Services</h1>
+        <p>Every service below is offered with the same commitment: clear communication, honest expectations, and marketing built around your business, brand, or project, not a one-size-fits-all template. We work with businesses of all kinds, with additional specialty services for authors, publishers, and creative professionals.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:40px;padding-bottom:56px;">
+    <div class="container">
+      <div class="section-header center reveal">
+        <p class="kicker center">Who We Serve</p>
+        <h2>Built for Businesses, Ministries &amp; Creative Professionals</h2>
+      </div>
+      <div class="audience-grid reveal">
+        <div class="audience-card">Small businesses, entrepreneurs, and service providers building or growing their customer base.</div>
+        <div class="audience-card">Coaches, consultants, ministries, and faith-based organizations sharing their message.</div>
+        <div class="audience-card">E-commerce and retail brands looking to grow online sales.</div>
+        <div class="audience-card">Authors, publishers, and other creative professionals; our original specialty and an area we know deeply.</div>
+        <div class="audience-card">Podcasters, speakers, and media personalities building a personal brand.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="services-list">
+
+        <div class="service-row reveal">
+          <div class="service-media">
+            <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=700&h=500&q=80" alt="Placeholder image">
+          </div>
+          <div class="service-copy">
+            <h3>Social Media Management</h3>
+            <p>We build and manage a social media presence tailored to your business and audience, including platform strategy, monthly content calendars, branded graphics, captions, and day-to-day posting. Whether your customers are on Instagram, TikTok, Facebook, or Threads/X, we meet them where they already are and keep your presence active and consistent, even when you're focused on running your business.</p>
+          </div>
+        </div>
+
+        <div class="service-row reverse reveal">
+          <div class="service-media">
+            <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=700&h=500&q=80" alt="Placeholder image">
+          </div>
+          <div class="service-copy">
+            <h3>Amazon &amp; E-Commerce Launch Marketing</h3>
+            <p>A strong launch depends on visibility at the exact moment customers are deciding whether to buy. We optimize Amazon and other retail product pages, research and apply the right categories and keywords, build pre-order or pre-launch momentum, and coordinate a launch-week plan designed to drive early sales and reviews that keep your product or book visible long after release day.</p>
+          </div>
+        </div>
+
+        <div class="service-row reveal">
+          <div class="service-media">
+            <img src="https://images.unsplash.com/photo-1724862936518-ae7fcfc052c1?auto=format&fit=crop&w=700&h=500&q=80" alt="Placeholder image">
+          </div>
+          <div class="service-copy">
+            <h3>Paid Advertising</h3>
+            <p>We manage paid ad campaigns across Google, Meta (Facebook/Instagram), Amazon Ads, and platform-specific channels like BookBub for publishing clients, handling audience targeting, ad creative, budget management, and ongoing optimization. You receive regular, plain-language performance reports so you always know how your ad spend is working.</p>
+          </div>
+        </div>
+
+        <div class="service-row reverse reveal">
+          <div class="service-media">
+            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=700&h=500&q=80" alt="Placeholder image">
+          </div>
+          <div class="service-copy">
+            <h3>Email Marketing &amp; Audience Growth</h3>
+            <p>An engaged email list is one of the most valuable assets a business or author can own. We set up your newsletter platform, design lead magnets such as guides, samples, or bonus content, build automated welcome sequences, and write launch or promotional campaigns, all aimed at turning casual visitors into a loyal, growing list you can reach directly.</p>
+          </div>
+        </div>
+
+        <div class="service-row reveal">
+          <div class="service-media">
+            <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=700&h=500&q=80" alt="Placeholder image">
+          </div>
+          <div class="service-copy">
+            <h3>Client Website &amp; Branding</h3>
+            <p>Your website is often a visitor's first impression of your business. We design or refresh client websites with clean, professional layouts, consistent visual branding across every platform, and press-ready materials, bios, headshots, and media kits, so you're always ready when a media or speaking opportunity comes up.</p>
+          </div>
+        </div>
+
+        <div class="service-row reverse reveal">
+          <div class="service-media">
+            <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=700&h=500&q=80" alt="Placeholder image">
+          </div>
+          <div class="service-copy">
+            <h3>Review &amp; Influencer Outreach</h3>
+            <p>We reach out on your behalf to relevant bloggers, social media influencers, and review services, book-focused (Bookstagrammers, BookTokers) or general-audience, depending on your business, to build genuine pre-launch buzz and a foundation of honest reviews, the social proof new customers look for before deciding to buy.</p>
+          </div>
+        </div>
+
+        <div class="service-row reveal">
+          <div class="service-media">
+            <img src="https://images.unsplash.com/photo-1724862936518-ae7fcfc052c1?auto=format&fit=crop&w=700&h=500&q=80" alt="Placeholder image">
+          </div>
+          <div class="service-copy">
+            <h3>Content Creation</h3>
+            <p>From promotional videos and quote graphics to product reels, book trailers, and other shareable visual assets, we create content designed specifically for how customers and readers discover businesses and books on social media and retail platforms today.</p>
+          </div>
+        </div>
+
+        <div class="service-row reverse reveal">
+          <div class="service-media">
+            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=700&h=500&q=80" alt="Placeholder image">
+          </div>
+          <div class="service-copy">
+            <h3>Screenplay &amp; Hollywood Treatment Development</h3>
+            <p>For clients looking beyond the page, we adapt manuscripts and original stories into professional, industry-formatted screenplays, including thriller and dramatic works, and prepare formal Hollywood-style treatments designed to be pitched to producers, agents, and studios.</p>
+          </div>
+        </div>
+
+        <div class="service-row reveal">
+          <div class="service-media">
+            <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=700&h=500&q=80" alt="Placeholder image">
+          </div>
+          <div class="service-copy">
+            <h3>Formal Interview Sets</h3>
+            <p>We prepare and conduct structured, press-ready interview sets, written Q&amp;A packages, and audio or video interview sessions, used for media outreach, client spotlights, podcast appearances, and promotional content.</p>
+          </div>
+        </div>
+
+        <div class="service-row reverse reveal">
+          <div class="service-media">
+            <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=700&h=500&q=80" alt="Placeholder image">
+          </div>
+          <div class="service-copy">
+            <h3>Podcast Production &amp; Promotion</h3>
+            <p>We help clients launch and grow podcasts, handling episode planning, guest coordination, formal interview sets, editing, and promotion, extending your message into the growing world of audio storytelling.</p>
+          </div>
+        </div>
+
+        <div class="service-row reveal">
+          <div class="service-media">
+            <img src="https://images.unsplash.com/photo-1724862936518-ae7fcfc052c1?auto=format&fit=crop&w=700&h=500&q=80" alt="Placeholder image">
+          </div>
+          <div class="service-copy">
+            <h3>Audiobook Production</h3>
+            <p>We coordinate audiobook narration, formatting, and distribution, paired with a marketing push to help your audiobook reach listeners on major platforms.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header center reveal">
+        <p class="kicker center">Service Packages</p>
+        <h2>Ready-Made Starting Points</h2>
+        <p>Package scope and pricing are customized to each client, project, and platform. Contact us for a tailored quote.</p>
+      </div>
+      <div class="package-table-wrap reveal">
+        <table class="package-table">
+          <caption>Service package comparison</caption>
+          <thead>
+            <tr>
+              <th scope="col">Package</th>
+              <th scope="col">Best For</th>
+              <th scope="col">What's Included</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="package-name">Launch Starter</td>
+              <td>First-time clients preparing for release</td>
+              <td>Social media setup, 4-week content calendar, Amazon page optimization, one email campaign</td>
+            </tr>
+            <tr class="featured-row">
+              <td class="package-name">Full Launch<span class="price-tag">Most Popular</span></td>
+              <td>Clients who want a coordinated, multi-channel push</td>
+              <td>Everything in Starter, plus paid ad management, review outreach, and launch-week email sequence</td>
+            </tr>
+            <tr>
+              <td class="package-name">Ongoing Client Brand</td>
+              <td>Clients building a long-term platform or catalog</td>
+              <td>Monthly social management, ongoing ad optimization, quarterly email campaigns, content creation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header center reveal">
+        <p class="kicker center">How It Works</p>
+        <h2>A Clear, Honest Process</h2>
+      </div>
+      <div class="feature-grid reveal">
+        <div class="feature-card">
+          <p class="step-number">01</p>
+          <h3>Discovery Call</h3>
+          <p>An initial consultation to review your business or project, target audience, and current platform.</p>
+        </div>
+        <div class="feature-card">
+          <p class="step-number">02</p>
+          <h3>Marketing Plan</h3>
+          <p>A written plan covering channels, timeline, and deliverables before any work begins.</p>
+        </div>
+        <div class="feature-card">
+          <p class="step-number">03</p>
+          <h3>Execution</h3>
+          <p>Content, ads, and outreach go live on the agreed schedule, with regular check-ins.</p>
+        </div>
+        <div class="feature-card">
+          <p class="step-number">04</p>
+          <h3>Reporting</h3>
+          <p>Performance summaries showing reach, engagement, and sales impact, with adjustments as needed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="mission reveal">
+        <div>
+          <p class="kicker">Why Faithworks Enlightenment</p>
+          <h2 style="font-size:32px;color:var(--brown);margin:0 0 16px;">Storytelling insight, delivered with honesty and care</h2>
+          <p style="color:var(--text-muted);font-size:16px;">We work with businesses across many industries, and our roots on the literary and manuscript side of book and media production give us a depth of storytelling and audience insight that carries into every client relationship. Combined with our faith-driven approach, that means campaigns built around what makes your business or project distinct, delivered with honesty and genuine care, rather than a generic template applied to every client.</p>
+          <a href="contact.html" class="btn btn-primary" style="margin-top:8px;">Schedule a Consultation</a>
+        </div>
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=620&h=520&q=80" alt="Placeholder image">
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="logo (1).png" alt="Faithworks Enlightenment logo">
+        <p>Faith-driven digital marketing solutions for businesses, authors, and creative professionals.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/" title="Go to Facebook page" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.51 1.49-3.9 3.77-3.9 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.78l-.44 2.91h-2.34V22c4.78-.76 8.44-4.92 8.44-9.94z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/" title="Go to Instagram page" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c2.72 0 3.06.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.22.6 1.77 1.15.55.55.9 1.11 1.15 1.77.25.64.42 1.37.47 2.43.05 1.06.06 1.4.06 4.12s-.01 3.06-.06 4.12c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.64.25-1.37.42-2.43.47-1.06.05-1.4.06-4.12.06s-3.06-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.25-.64-.42-1.37-.47-2.43C2.01 15.06 2 14.72 2 12s.01-3.06.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.22 1.15-1.77A4.9 4.9 0 0 1 5.45.53C6.09.28 6.82.11 7.88.06 8.94.01 9.28 0 12 0zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.25A3.25 3.25 0 1 1 12 6.75a3.25 3.25 0 0 1 0 6.5zm5.2-8.45a1.17 1.17 0 1 1-2.34 0 1.17 1.17 0 0 1 2.34 0z"/></svg>
+          </a>
+          <a href="https://tiktok.com/" title="Go to TikTok page" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.71 2h-3.14v13.44a2.85 2.85 0 1 1-2.02-2.73v-3.2a6.03 6.03 0 1 0 5.16 5.97V8.63a7.15 7.15 0 0 0 4.22 1.36V6.85a3.94 3.94 0 0 1-4.22-4.06V2z"/></svg>
+          </a>
+          <a href="https://x.com/" title="Go to X page" aria-label="X">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.24 2H21l-6.55 7.49L22.2 22h-6.2l-4.86-6.35L5.5 22H2.72l7.02-8.02L2 2h6.35l4.4 5.8L18.24 2zm-1.08 18.17h1.72L7.06 3.74H5.2l11.96 16.43z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-contact">
+        <h4>Contact</h4>
+        <p>admin@faithworksenlightenment.com</p>
+        <p>1-800-349-6439</p>
+      </div>
+      <div class="footer-col footer-newsletter">
+        <h4>Send an Inquiry</h4>
+        <form data-inquiry-form data-mailto="admin@faithworksenlightenment.com">
+          <input type="email" name="email" placeholder="Your Email Address" data-required>
+          <div class="error" data-error-for="email">Please enter a valid email address.</div>
+          <button type="submit">Submit Your Inquiry</button>
+          <div class="form-success" data-success>Opening your email app with your inquiry ready — just hit send there to reach us.</div>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Faithworks Enlightenment LLC. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  try {
+    var toggle = document.querySelector('.nav-toggle');
+    var nav = document.querySelector('.main-nav');
+    if (toggle && nav) {
+      toggle.addEventListener('click', function () {
+        var isOpen = nav.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+    }
+  } catch (err) { }
+
+  try {
+    document.querySelectorAll('form[data-inquiry-form]').forEach(function (form) {
+      var mailto = form.getAttribute('data-mailto');
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        var valid = true;
+        form.querySelectorAll('[data-required]').forEach(function (field) {
+          var errorEl = form.querySelector('[data-error-for="' + field.name + '"]');
+          var value = field.value.trim();
+          var fieldValid = value.length > 0;
+
+          if (fieldValid && field.type === 'email') {
+            fieldValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+          }
+
+          if (!fieldValid) {
+            valid = false;
+            if (errorEl) errorEl.classList.add('show');
+          } else if (errorEl) {
+            errorEl.classList.remove('show');
+          }
+        });
+
+        var successEl = form.querySelector('[data-success]');
+        if (!valid) {
+          if (successEl) successEl.classList.remove('show');
+          return;
+        }
+
+        if (mailto) {
+          var nameField = form.querySelector('[name="name"]');
+          var emailField = form.querySelector('[name="email"]');
+          var messageField = form.querySelector('[name="message"]');
+          var name = nameField ? nameField.value.trim() : '';
+          var replyTo = emailField ? emailField.value.trim() : '';
+          var message = messageField ? messageField.value.trim() : '';
+
+          var subject = encodeURIComponent('New inquiry from ' + name + ' — faithworksenlightenment.com');
+          var body = encodeURIComponent(
+            'Name: ' + name + '\n' +
+            'Email: ' + replyTo + '\n\n' +
+            'Message:\n' + message
+          );
+          window.location.href = 'mailto:' + mailto + '?subject=' + subject + '&body=' + body;
+        }
+
+        if (successEl) successEl.classList.add('show');
+        form.reset();
+      });
+
+      form.querySelectorAll('[data-required]').forEach(function (field) {
+        field.addEventListener('input', function () {
+          var errorEl = form.querySelector('[data-error-for="' + field.name + '"]');
+          if (errorEl) errorEl.classList.remove('show');
+        });
+      });
+    });
+  } catch (err) { }
+});
+
+(function () {
+  try {
+    var items = document.querySelectorAll('.reveal');
+    if (!items.length) return;
+
+    if (!('IntersectionObserver' in window)) {
+      document.documentElement.classList.add('no-scroll-anim');
+      return;
+    }
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.15,
+      rootMargin: '0px 0px -8% 0px'
+    });
+
+    items.forEach(function (el) { observer.observe(el); });
+  } catch (err) {
+    document.documentElement.classList.add('no-scroll-anim');
+  }
+})();
+
+(function () {
+  try {
+    var bar = document.createElement('div');
+    bar.className = 'scroll-progress';
+    document.body.appendChild(bar);
+    var ticking = false;
+    function update() {
+      var scrollTop = window.scrollY;
+      var height = document.documentElement.scrollHeight - window.innerHeight;
+      var ratio = height > 0 ? scrollTop / height : 0;
+      bar.style.transform = 'scaleX(' + Math.min(1, Math.max(0, ratio)) + ')';
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { requestAnimationFrame(update); ticking = true; }
+    }, { passive: true });
+    update();
+  } catch (err) { }
+})();
+
+(function () {
+  try {
+    if (!window.matchMedia('(hover:hover) and (pointer:fine)').matches) return;
+    var dot = document.createElement('div');
+    dot.className = 'cursor-dot';
+    var ring = document.createElement('div');
+    ring.className = 'cursor-ring';
+    document.body.appendChild(dot);
+    document.body.appendChild(ring);
+    document.body.classList.add('custom-cursor-on');
+
+    var mouseX = 0, mouseY = 0, ringX = 0, ringY = 0;
+    window.addEventListener('mousemove', function (e) {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+      dot.style.transform = 'translate(' + mouseX + 'px,' + mouseY + 'px) translate(-50%,-50%)';
+    });
+    function loop() {
+      ringX += (mouseX - ringX) * 0.18;
+      ringY += (mouseY - ringY) * 0.18;
+      ring.style.transform = 'translate(' + ringX + 'px,' + ringY + 'px) translate(-50%,-50%)';
+      requestAnimationFrame(loop);
+    }
+    loop();
+
+    document.addEventListener('mouseover', function (e) {
+      if (e.target.closest && e.target.closest('a,button,.btn,input,textarea')) ring.classList.add('is-active');
+    });
+    document.addEventListener('mouseout', function (e) {
+      if (e.target.closest && e.target.closest('a,button,.btn,input,textarea')) ring.classList.remove('is-active');
+    });
+    document.addEventListener('mouseleave', function () { document.body.classList.add('cursor-hidden'); });
+    document.addEventListener('mouseenter', function () { document.body.classList.remove('cursor-hidden'); });
+  } catch (err) { }
+})();
+</script>
+</body>
+</html>
